@@ -56,13 +56,11 @@ repos:
     config:
       removeUnconfiguredLabels: false
     labels:
-      {}
-      # <<: *common
+      <<: *common
       # Add labels here.
   label-sync-test-2:
     config:
       removeUnconfiguredLabels: false
     labels:
-      {}
-      # <<: *common
+      <<: *common
       # Add labels here.
